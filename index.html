@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo - Yazılım Geliştirici</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="page">
+        <section class="profile-card">
+            <div class="intro-block">
+                <div class="avatar-wrapper">
+                    <img src="https://www.aliakbas.net.tr/Ali_AKBAŞ.jpeg" alt="Profil Fotoğrafı">
+                    <span class="status-dot"></span>
+                </div>
+                <h1>Ali Akbaş</h1>
+                <p class="subtitle">Yazılım Geliştirici</p>
+                <p class="description">
+                    Web Dünyası ve siber güvenlik alanında kendimi geliştirmeye devam ediyorum.
+                </p>
+            </div>
+
+            <div class="skills">
+                <h2>Yeteneklerim</h2>
+                <div class="skill-tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JS</span>
+                    <span>PHP</span>
+                    <span>Python</span>
+                    
+                </div>
+            </div>
+
+            <div class="cta-group">
+                <a href="projects.html" class="secondary-btn">Projelerim</a>
+                <button type="button" class="primary-btn" data-contact-modal>İletişime Geç</button>
+            </div>
+
+            <div class="socials">
+                <a href="https://github.com/0aliakbas0" target="_blank" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                </a>
+                <a href="https://linkedin.com/in/0aliakbas" target="_blank" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://instagram.com/0aliakbas" target="_blank" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <circle cx="17.5" cy="6.5" r="1.5"></circle>
+                    </svg>
+                </a>
+            </div>
+            <div class="contact-modal" id="contactModal" data-email="41aliakbas@gmail.com" hidden>
+                <div class="contact-backdrop"></div>
+                <div class="contact-card">
+                    <button class="contact-mail-icon" type="button" aria-label="Mail Gönder" data-mailto-close>&times;</button>
+                    <h4>E-posta ile iletişim</h4>
+                    <p>Bana ulaşmak için aşağıdaki adresi kullanabilirsin.</p>
+                    <div class="contact-address">41aliakbas@gmail.com</div>
+                    <button class="contact-btn ghost" type="button" data-close-modal>Kapat</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
